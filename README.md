@@ -6,10 +6,10 @@ A cloud-powered web app to store and share travel memories securely.
 
 Travel Diary App is a secure and scalable web application built using AWS Amplify.
 It allows users to:
-✅ Create an account & log in securely
-✅ Upload and store travel photos & notes
-✅ View their personal travel memories anytime
-✅ Store content securely in the cloud
+ Create an account & log in securely
+ Upload and store travel photos & notes
+ View their personal travel memories anytime
+ Store content securely in the cloud
 
 This project demonstrates full-stack cloud development using serverless architecture.
 
@@ -25,9 +25,9 @@ This project demonstrates full-stack cloud development using serverless architec
 
 ## Architecture
 React Frontend → AWS Amplify → Cognito (Auth)
-                                ↓
+                                →
                             S3 Bucket (Photos)
-                                ↓
+                                →
                      (Optional) DynamoDB (Notes)
 
 ## Tech Stack
